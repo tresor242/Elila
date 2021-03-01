@@ -1,0 +1,225 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: algerian;
+	list-style: none;
+
+}
+.navbar{
+	width: 	100%;
+	position: fixed;
+	background-color: crimson;
+
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+
+
+}
+.logo a{
+	color: 	#fff;
+	font-size:40px;
+	font-weight:500;
+}
+.logo a span{
+	color: 	#000;
+}
+
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display:inline-block;	
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+
+}
+.menu li a:hover{
+	color: black;
+}
+
+/****************************************************************/
+
+.home{
+	height: 800px;
+	background: url('home2.jpg');
+	display: flex;
+	
+}
+
+.home .max-width{
+	color: white;
+	margin: auto 120px;
+	
+}
+.home .home-content .text-1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.home .home-content .text-2{
+	color: crimson;
+	font-size: 60px;
+	font-weight: 600;
+}
+.home .home-content .text-3{
+	font-size: 50px;
+	font-weight: 600;
+}
+.home .home-content .text-3 span{
+	color: crimson;
+
+}
+.home .home-content .button-one{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.home .home-content .button-one:hover{
+	background:none;
+}
+.about{
+	
+	background-color: orange;
+	margin: 50px 150px;
+}
+.about .title1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+}
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6
+	0px;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+
+.about .div-left img{
+	height: 450px;
+	width: 400px;
+	border-radius: 6px;
+
+}
+.about .div-right .text{
+	color: black;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom:10px;
+}
+.about .div-right .text span{
+	color: crimson;
+}
+.about .div-right p{
+	font-size: 20px;
+	text-align: justify;
+}
+.about .about-content .button-two{
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.about .about-content .button-two:hover{
+	color: crimson;
+	background:none;
+}
+
+.section3 .max-width3{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	
+
+}
+
+
+.img3{
+
+background-color: black;
+margin-right: 5px;
+width: 650px;
+height: 350px;
+padding-top: 10px;
+margin-right: 70px;
+border-radius: 20px;
+margin-bottom: 300px;
+display: inline-block;
+margin-top: 45px;
+
+}
+
+.text{
+	color: white;
+	margin-bottom: 30px;
+
+}
+
+.tt{
+	background-color: black;
+}
+
+.div4{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.divt1{
+	text-align: justify;
+	width: 450px;
+	height: 200px;
+	margin-left: 150px;
+	font-size: 25px;
+	margin-bottom: 350px;
+
+}
+.oo{
+	font-size: 25px;
+
+}
+.em{
+	margin-top: 70px;
+	margin-right: 200px;
+}
+
+.im{
+	background-color: crimson;
+	margin-bottom: 100px;
+	text-align: center;
+	border-radius: 10px;
+	}
+
+.im a{
+	color: white;
+}
+
